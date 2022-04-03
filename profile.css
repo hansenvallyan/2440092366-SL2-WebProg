@@ -1,0 +1,110 @@
+*{  
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    background-color: #F9FFCA;
+    height: 3rem;
+    display: flex;
+}
+
+.navLeft{
+    width: 55%;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+}
+
+.navCenter{
+    width: 40%;
+    display: flex;
+    padding-top: 1rem;
+}
+
+.btnItem{
+    width: 100px;
+}
+
+a:hover{
+    font-weight:bold;
+}
+
+
+.navRight{
+    width: 5%;
+    padding-top: 1rem;
+}
+
+.content{
+    background-color:#CAD1FF;
+    height: 34.5rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+
+.field{
+    width: 32%;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 25pt;
+    /* background-color: red; */
+}
+
+label{
+    /* background-color: blue; */
+    width: 135px;
+}
+
+input[type=text], input[type=date],input[type=email],input[type=password],input[type=number],textarea{
+    width: 222px;
+}
+
+input[type=text], input[type=date],input[type=email],input[type=password],input[type=number]{
+    height: 25px;
+}
+
+
+
+img{
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.container{
+    width: 250px;
+}
+
+.edit{
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding-top: 0.3rem;
+    text-align: center;
+    background-color: yellow;
+}
+
+.edit:hover{
+    background-color: rgb(255, 196, 0);
+    border: 1px solid yellow;
+    font-weight: bold;
+}

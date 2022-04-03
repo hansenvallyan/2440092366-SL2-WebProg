@@ -1,0 +1,64 @@
+*{  
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    background-color: #E5EDEB;
+    width: 100%;
+    height: 600px;
+}
+
+.title{
+    padding-top: 2rem;
+    font-style: normal;
+    text-align: center;
+}
+
+.selamatDatang{
+    text-align: center;
+    padding-top: 8rem;
+    font-size: 30px;
+}
+
+.button{
+    /* background-color: white; */
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
+}
+
+.buttonItem{
+    width: 12rem;
+    height: 5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.buttonItem:first-child{
+    background-color: #99D6ED;
+}
+
+.buttonItem:first-child:hover{
+    background-color: #3db8e6;
+    border: 3px solid #267491;
+}
+
+.buttonItem:nth-child(2){
+    background-color: #C6ED99;
+}
+
+.buttonItem:nth-child(2):hover{
+    background-color: #a5f051;
+    border: 3px solid #619625;
+}
+
